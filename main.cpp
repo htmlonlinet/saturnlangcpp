@@ -1,15 +1,11 @@
 #include <iostream>
-#inclide <string>
+#include <string>
 using namespace std;
-class Code(){
+class Code{
   public:
   int number;
   const char *input;
-}
+};
 int main(){
   Code code;
-  code.input = "hello?";
-  code.number = 50;
-  cout << code.number;
-  cout << code.input;
 }
